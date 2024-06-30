@@ -1,0 +1,59 @@
+.bestselling-furniture {
+    grid-column: 2/10;
+    grid-row: 6/7;
+}
+
+.bestselling-furniture-header {
+    font-size: 4.5rem;
+    color: #23487f;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.bestselling-furniture-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 6.4rem;
+}
+
+.bestselling-furniture-card {
+    background-color: white;
+    box-shadow: 0 1.5rem 6rem rgb(87, 81, 81);
+}
+
+.bestselling-furniture-img {
+    width: 100%;
+    border-radius: 0.3rem 0.3rem 0 0;
+}
+
+.bestselling-furniture-heading {
+    background-color: #fffddd;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 2.4rem;
+    color: #458a9f;
+    padding: 0.5rem 0;
+    border-radius: 0.2rem;
+    transform: translateY(-50%);
+}
+
+.bestselling-furniture-para {
+    font-size: 1.9rem;
+    color: blue;
+    text-align: center;
+    margin-bottom: 1.6rem;
+}
+
+.bestselling-furniture-btn {
+    width: 100%;
+    padding: 1.6rem 0;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.bestselling-furniture-btn:hover {
+    background-color: rgb(134, 134, 234);
+}
